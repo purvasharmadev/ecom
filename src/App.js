@@ -1,12 +1,17 @@
-import './App.css';
+// import navbar
+import Nav from "./Pages/LandingPage/nav.js"
+
+// import LandingPage i.e home page
+import LandingPage from './Pages/LandingPage/landing-page.js'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <h1>Hello World from React</h1>
-      </header>
-    </div>
+    <>
+    <Nav/>
+    <LandingPage/>
+    </>
+
   );
 }
 
